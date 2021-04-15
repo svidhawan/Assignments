@@ -1,0 +1,45 @@
+.book{
+    margin: auto;
+    justify-content: center;
+    width:70%;
+    height:70%;
+    align-items: center;
+    display: block;
+}
+
+.header{
+    column-width: auto;
+    background-color: blue;
+    color:cornsilk;
+    font-size : 20px;
+    text-align: center;
+}
+.nav-left{
+    float: left;
+    width:30%
+}
+.nav-right {
+    float: right;
+    width: 30%;
+
+}  
+ .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.main{
+   width:50%;
+}
+.footer{
+    column-width : 40 ;
+    background-color: darkgoldenrod;
+    color: cornsilk;
+    font-size: 15px;
+    float: auto;
+}
+
+.items{
+    background-color: cyan;
+    border-block-width: 20;
+}

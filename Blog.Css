@@ -1,0 +1,58 @@
+.blog{
+    margin: 80px;
+    justify-content: center;
+    width:70%;
+    height: 800px;
+    align-content: center;
+}
+
+.header{
+    column-width: auto;
+    background-color: yellow;
+    color:black;
+    font-size : 20px;
+    text-align: center;
+}
+.nav-left{
+    float: left;
+    width:18%
+}
+.nav-right {
+    float: right;
+    width: 30%;
+    border-top: chartreuse;
+
+}  
+ .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.main{
+   width:50%;
+}
+.footer{
+    column-width : 40 ;
+    background-color: darkgoldenrod;
+    color: cornsilk;
+    font-size: 15px;
+    float: auto;
+}
+
+.items{
+    border-block-width: 20;
+}
+.Last post{
+    background-color: cornsilk;
+    padding: 15px;
+    color: black
+}
+
+.vl {
+    border-left: 3px solid chartreuse;
+    height: 160px;
+    position:fixed;
+    left: 15%;
+    margin-left: -3px;
+    top: 100;
+  }
